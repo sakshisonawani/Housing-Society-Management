@@ -1,0 +1,570 @@
+html , body{
+    height: 100%;
+            margin: 0;
+
+}
+.logo-image{
+  width: 46px;
+  height: 46px;
+  border-radius: 25%;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-left: 10px;
+  position:absolute;
+}
+.bg{
+    
+    height: 100%;
+    display: block;
+   position: relative;
+   background-image: url("img/scrappers1.jpg");
+   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+
+}
+
+.logo{
+
+    height:250px;
+    width: 250px;
+    margin-top: 40px;
+    border-radius: 50%;
+    margin-left: 170px;
+    border-left: 3px solid rgb(131, 128, 128);
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
+    
+    
+}
+.center{
+
+    display: block;
+    
+    margin-right: auto;
+    margin-left: 350px;
+    
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(51,51,51,0.7);
+    z-index: 10;
+  }
+
+ .button1{
+     position: absolute;
+    display: block; 
+    font-family: 'Lato',sans-serif,roboto;
+    width: 150px;
+    background-color: rgba(244, 247, 74, 0.452);
+    font-size: 30px;
+    border-radius:50px;
+    margin-left: 220px;
+    line-height: 50px;
+    top: 530px;
+    
+  }
+
+ .button1:hover {
+
+    background-color:rgba(244, 247, 74, 0.7);
+
+ } 
+
+ 
+
+ .name{
+    display: block;
+    margin: auto;
+    width: 30%;
+ }
+   
+ 
+
+ .center p{
+  
+  font-size: 100px;
+  font-family:'Baloo Paaji', cursive;
+  font-weight: normal;
+  letter-spacing: 10px;
+  position: absolute;
+  top:250px;
+  float: left;
+  color: white;
+ }
+
+
+.feedback{
+  /* padding-left: 130px; */
+  margin-top: 50px;
+  text-align: center;
+  
+  
+}
+
+.feedback_style{
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-family: 'Baloo Paaji', cursive;
+    text-align: center;
+}
+.feedback_style span{
+    color:green;
+}
+
+
+
+                     /* nav css start */
+
+.ulc
+{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 60px;
+    overflow: hidden;
+     background-color: rgba(0, 0,0, 0.7) ;
+     height: 65px;
+
+}
+
+.lic{
+  float: left;
+}
+
+.lic {
+  display: block;
+  margin-bottom: 50px;
+  text-decoration: none;
+  width: 200px;
+  color: white;
+
+}
+
+.lic:hover{
+  background-color: rgb(102, 100, 100);
+  transition: 0.5s;
+  
+  
+}
+
+
+.nav{
+  position: sticky;
+  text-align: center;
+  top: 0px;
+  
+  /*width:200px;*/
+}
+.nam{
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+                  /* nav css End */
+
+
+                  /*FEATURES PAGE STARTS*/
+
+.heading_sa,.heading1_sa{ 
+  font-family: 'Baloo Paaji', cursive;
+  text-align: center;
+  letter-spacing: 5px;
+  font-weight: bold;
+  margin-top: 70px;
+  font-size: 140%;
+  line-height: 10px;
+
+}
+
+.head_sa{
+  font-family: Lato, sans-serif, roboto;
+  letter-spacing: 5px;
+  font-weight:bold;
+  font-size: 130%;
+  margin-top: 50px;
+ text-align: center;
+}
+hr{
+  width:800px;
+  border:1px solid black;
+}
+
+
+/*.container { 
+  width:1000px; 
+  height:1000px; 
+  padding-top:20px; 
+  padding-left:15px; 
+  padding-right:15px; 
+} */
+
+#st-box_sa{ 
+  float:left; 
+} 
+
+#nd-box_sa { 
+  float:left;
+} 
+
+#rd-box_sa { 
+  float:right; 
+} 
+
+
+.flip-card_sa {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin-top: 15px;
+  margin-bottom: 100px;
+  margin-right: 55px;
+  margin-left: 80px;
+  border-radius: 20px;
+  border-left: 1px solid rgb(131, 128, 128);
+  box-shadow: 0 4px 6px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner_sa {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius: 20px;
+  border-left: 1px solid rgb(131, 128, 128);
+  box-shadow: 0 4px 6px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card_sa:hover .flip-card-inner_sa {
+  transform: rotateY(180deg);
+  border-radius: 20px;
+  border-left: 1px solid rgb(131, 128, 128);
+  box-shadow: 0 4px 6px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Position the front and back side */
+.flip-card-front_sa, .flip-card-back_sa {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  border-radius: 20px;
+  border-left: 1px solid rgb(131, 128, 128);
+  box-shadow: 0 4px 6px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front_sa {
+  background-color: rgb(180, 178, 178);
+  color: black;
+  border-radius: 20px;
+  border-left: 1px solid rgb(131, 128, 128);
+  box-shadow: 0 4px 6px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the back side */
+.flip-card-back_sa {
+  background-color: white;
+  color: black;
+  transform: rotateY(180deg);
+  border-radius: 20px;
+  border-left: 1px solid rgb(131, 128, 128);
+  box-shadow: 0 4px 6px 2px rgba(0, 0, 0, 0.2);
+}
+.sa{
+  color: green;
+}
+center h1{
+  font-family:'Balthazar', serif;
+  font-weight: bold;
+}
+
+
+
+
+                  /*FEATURES PAGE ENDS*/
+
+
+
+                    /* ABOUT US PAGE STARTS */
+
+.background_su{
+  margin-top:600px;
+background-image: url(img/leaf1.jpg);
+  background-size: 1366px 600px;
+  width: 1366px;
+  height: 600px;
+  position: relative;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 6px 2px rgba(0, 0, 0, 0.2);
+  
+}
+.background_su h1{
+  font-family: 'Baloo Paaji', cursive;
+  font-size:90px;
+  font-stretch:100%;
+  font-style:normal;
+  font-weight: bolder;
+  height:auto;
+  line-height:50px;
+  margin-bottom:0px;
+  padding-left:80px;
+  margin-right:0px;
+  padding-top:35px;
+  max-height:999999px;
+  color: black;
+}
+.background_su h2{
+  font-family: 'Baloo Paaji', cursive;
+  font-size:90px;
+  font-stretch:100%;
+  font-weight: bolder;
+  height:auto;
+  line-height:30px;
+  margin-bottom:20px;
+  padding-left:90px;
+  margin-right:0px;
+  margin-top:35px;
+  max-height:999999px;
+  color: green;
+}
+.background_su p{
+  font-family: 'Balthazar', serif;
+  font-size:25px;
+  font-stretch:100%;
+  font-weight: bold;
+  height:auto;
+  line-height:30px;
+  margin-bottom:0px;
+  margin-left:120px;
+  margin-right:0px;
+  margin-top:10px;
+  max-height:999999px;
+  color: black;
+   border-left: 1px solid black;
+  padding-left: 5px;
+}
+
+.notes_su img{
+  position: absolute;
+  width: 683px;
+  height: 600px;
+  top: 0px;
+  margin-left: 50%;
+  opacity: 0.3;
+}
+.line1_su h1{
+  font-family: 'Baloo Paaji', cursive;
+  font-size:35px;
+  font-stretch:100%;
+  font-style:normal;
+  font-weight: bold;
+  height:auto;
+  line-height:50px;
+  margin-bottom:0px;
+  margin-left:0px;
+  margin-right:0px;
+  padding-top:50px;
+  max-height:999999px;
+  color: green;
+}
+.line1_su p{
+  font-family: 'Balthazar', serif;
+  font-size:25px;
+  font-stretch:100%;
+  font-style:normal;
+  font-weight:bold;
+  text-align: center;
+  width: 550px;
+  line-height:30px;
+  margin-bottom:0px;
+  margin-left:60px;
+  margin-right:0px;
+  padding-top:5px;
+  color:black;
+}
+.line2_su h1{
+  font-family: 'Baloo Paaji', cursive;
+  font-size:35px;
+  font-stretch:100%;
+  font-style:normal;
+  font-weight: bold;
+  line-height:25px;
+  margin-bottom:0px;
+  margin-left:45%;
+  margin-right:0px;
+  padding-top:0px;
+  color: green;
+  top: 0%;
+  position: absolute;
+}
+.line2_su h2{
+  font-family: 'Baloo Paaji', cursive;
+  font-size:35px;
+  font-stretch:100%;
+  font-style:normal;
+  font-weight: bold;
+  line-height:25px;
+  margin-bottom:0px;
+  margin-left:45%;
+  margin-right:0px;
+  padding-top:0px;
+  color:green;
+  top: 5%;
+  position: absolute;
+}
+.p1_su,.p2_su,.p3_su,.p4_su{
+  font-size:50px;
+  font-stretch:100%;
+  font-family: 'Balthazar', serif;
+  font-style:normal;
+  font-weight: normal;
+  text-align: center;
+  width: 650px;
+  line-height:25px;
+  margin-left:45%;
+  margin-right:0px;
+  max-height:999999px;
+  color:black;
+  position:absolute;
+  padding-top:5px;
+}
+.p1_su{
+  margin-bottom:0px;
+  top:15%;
+  
+}
+.p2_su{
+  
+  margin-bottom:0px;
+  top:35%;
+  
+}
+.p3_su{
+ margin-bottom:0px;
+  top:55%;
+  
+}
+.p4_su{
+ margin-bottom:0px;
+  padding-top:5px;
+     top:70%;
+  
+}
+span{
+  color: black;
+}
+.p_su span,.p1_su span,.p2_su span,.p3_su span,.p4_su span{
+  color:black;
+  font-size: 50px;
+
+}
+
+           /* ABOUT US PAGE ENDS */
+
+           
+
+                   /* card start */
+
+
+                 
+ .feedback{
+  /* padding-left: 130px; */
+
+  text-align: center;
+  
+  
+}
+.feedback p{
+    font-family: Lato, sans-serif, roboto;
+    letter-spacing: 5px;
+    margin-left: 41%;
+  
+    font-weight:bolder;
+    font-size: 120%;
+    padding-top: 50px;
+    position: absolute;
+    
+  
+}
+
+.feedback_style{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-family: 'Baloo Paaji', cursive;
+    text-align: center;
+}
+.feedback_style span{
+    color:green;
+}
+
+                  
+
+.feed{
+  text-align: center;
+  width:130px;
+  height:130px;
+   border-radius: 50%; 
+   margin-top: 10%;
+  
+}
+
+.rev{
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Lato, sans-serif, roboto;
+  letter-spacing: 0px;
+  padding:3px;
+  line-height: 15px;
+}
+
+.card{
+  box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  height: 400px;
+  background-image: url(img/leafbg.jpg);
+  border-radius: 25px;
+  border-left: 3px solid rgb(131, 128, 128);
+  margin-top:10px;
+}
+
+.fa{
+  padding-top: 20px;
+  width: 40%;
+  font-size: 25px !important;
+  color: black;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-around;
+  font-family:  'Balthazar', serif;
+  letter-spacing: 0px;
+  
+}
+                      /* card end */
+                     
+                     
+              
